@@ -8,6 +8,7 @@ public class Character : MonoBehaviour {
         Left = 0,
         Forward = 1,
         Right = 2,
+        Back = 3,
     }
 
     [Header("Animator")]
@@ -44,6 +45,8 @@ public class Character : MonoBehaviour {
                 Move(Direction.Left);
             } else if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D)) {
                 Move(Direction.Right);
+            } else if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S)) {
+                Move(Direction.Back);
             }
         }
     }
@@ -54,9 +57,11 @@ public class Character : MonoBehaviour {
                 _animator.Play(_moveForwardAnimationName);
                 break;
             case -1:
+            case 3:
                 _animator.Play(_moveRightAnimationName);
                 break;
             case 1:
+            case -3:
                 _animator.Play(_moveLeftAnimationName);
                 break;
             case -2:
