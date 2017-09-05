@@ -3,7 +3,7 @@
 [RequireComponent(typeof(Animator))]
 public class Character : MonoBehaviour {
 
-    private enum Direction {
+    public enum Direction {
 
         Left = 0,
         Forward = 1,
@@ -27,31 +27,21 @@ public class Character : MonoBehaviour {
     [SerializeField]
     private string _moveBackAnimationName;
 
+    [SerializeField]
+    private string _actionAnimationName;
+
     private Animator _animator;
     private Direction _direction = Direction.Forward;
 
 
-    private void Awake() {
+    protected virtual void Awake() {
         _animator = GetComponent<Animator>();
     }
 
-    private void Update() {
-        if (_animator.GetCurrentAnimatorStateInfo(0).shortNameHash ==
-            Animator.StringToHash(_idleAnimationName)) {
-
-            if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W)) {
-                Move(Direction.Forward);
-            } else if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A)) {
-                Move(Direction.Left);
-            } else if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D)) {
-                Move(Direction.Right);
-            } else if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S)) {
-                Move(Direction.Back);
-            }
+    public virtual void Move(Direction direction) {
+        if (_animator.GetCurrentAnimatorStateInfo(0).shortNameHash != Animator.StringToHash(_idleAnimationName)) {
+            return;
         }
-    }
-
-    private void Move(Direction direction) {
         switch (_direction - direction) {
             case 0:
                 _animator.Play(_moveForwardAnimationName);
@@ -70,5 +60,12 @@ public class Character : MonoBehaviour {
                 break;
         }
         _direction = direction;
+    }
+
+    public virtual void MakeAction() {
+        if (_animator.GetCurrentAnimatorStateInfo(0).shortNameHash != Animator.StringToHash(_idleAnimationName)) {
+            return;
+        }
+        _animator.Play(_actionAnimationName);
     }
 }

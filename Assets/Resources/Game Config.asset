@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9c51f7044206f846a91817a16ec5911, type: 3}
+  m_Name: Game Config
+  m_EditorClassIdentifier: Assembly-CSharp::GameConfig
+  menuSceneName: Menu
+  defaultLevelSceneName: BasicLevel
+  characters:
+  - {fileID: 114297782711084228, guid: 0f8025e65404770469d2d8629e22be3a, type: 2}
+  - {fileID: 114889057038346854, guid: 9c928aba7f75d7249b54136b2e1b5ebd, type: 2}

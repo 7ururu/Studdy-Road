@@ -1,4 +1,4 @@
-﻿Shader "Studdy Road/Diffuse Color" {
+﻿Shader "Studdy Road/Diffuse Vertex Color" {
 
 	Properties {
 		_Color ("Color", Color) = (1.0, 1.0, 1.0, 1.0)
@@ -20,7 +20,7 @@
 		float4 _Color;
 
 		void surf (Input IN, inout SurfaceOutput o) {
-			o.Albedo = _Color;
+			o.Albedo = _Color * IN.color;
 		}
 
 		ENDCG
