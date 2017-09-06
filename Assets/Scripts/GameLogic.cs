@@ -10,7 +10,7 @@ public class GameLogic : MonoBehaviour {
 
 
     private void Awake() {
-        var prefab = Config.Instance.characters[Settings.SelectedCharacterIndex];
+        var prefab = Config.Instance.characters[Mathf.Min(Settings.SelectedCharacterIndex, Config.Instance.characters.Length - 1)];
         _character = Instantiate(prefab, Vector3.zero, Quaternion.identity);
 
         _gameCamera.Target = _character;

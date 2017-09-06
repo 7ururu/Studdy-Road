@@ -25,7 +25,7 @@ public class Menu : MonoBehaviour {
 
 
     private void Awake() {
-        _selectedCharacterIndex = Settings.SelectedCharacterIndex;
+        _selectedCharacterIndex = Mathf.Min(Settings.SelectedCharacterIndex, Config.Instance.characters.Length - 1);
         _characters = new Character[Config.Instance.characters.Length];
         for (int i = 0; i < _characters.Length; i++) {
             _characters[i] = Instantiate(Config.Instance.characters[i]);
