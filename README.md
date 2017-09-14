@@ -6,3 +6,4 @@ Participants list:
 2. Nikita Gerasimov(Fihs)
 3. Sevastian Kozhunov (easterprince)
 4. Korneevets Andrey (An98Korn)
+5. Vadim Kirienko (sirvadim)
