@@ -8,3 +8,4 @@ Participants list:
 4. Korneevets Andrey (An98Korn)
 5. Vadim Kirienko (sirvadim)
 6. Arina Zhalnina (Zhalnina)
+7. Sergei Nazarikov (snazau)
