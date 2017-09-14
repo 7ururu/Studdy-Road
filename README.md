@@ -7,3 +7,4 @@ Participants list:
 3. Sevastian Kozhunov (easterprince)
 4. Korneevets Andrey (An98Korn)
 5. Vadim Kirienko (sirvadim)
+6. Arina Zhalnina (Zhalnina)
