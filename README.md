@@ -9,3 +9,4 @@ Participants list:
 5. Vadim Kirienko (sirvadim)
 6. Arina Zhalnina (Zhalnina)
 7. Sergei Nazarikov (snazau)
+8. Slava Shchetinin (SlavaLetters)
