@@ -10,3 +10,4 @@ Participants list:
 6. Arina Zhalnina (Zhalnina)
 7. Sergei Nazarikov (snazau)
 8. Slava Shchetinin (SlavaLetters)
+9. Pavel Razin (PavelRazin)
