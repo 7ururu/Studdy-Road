@@ -11,3 +11,4 @@ Participants list:
 7. Sergei Nazarikov (snazau)
 8. Slava Shchetinin (SlavaLetters)
 9. Pavel Razin (PavelRazin)
+10. Tatarinov Aleksandr(Fahrenheit039)
