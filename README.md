@@ -2,7 +2,8 @@ Studdy Road
 
 Participants list:
 
-1. Dmitry Koblyk(7ururu)
+1. Dmitry Koblyk (7ururu)
+2. Nikita Gerasimov (Fihs)
 3. Sevastian Kozhunov (easterprince)
 4. Korneevets Andrey (An98Korn)
 5. Vadim Kirienko (sirvadim)
@@ -11,4 +12,4 @@ Participants list:
 8. Slava Shchetinin (SlavaLetters)
 9. Pavel Razin (PavelRazin)
 10. Tatarinov Aleksandr(Fahrenheit039)
-11. Savely Pekar
+11. Savely Pekar (savpekar)
