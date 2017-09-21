@@ -14,3 +14,4 @@ Participants list:
 10. Tatarinov Aleksandr(Fahrenheit039)
 11. Savely Pekar (savpekar)
 12. Evgeniya Sharamet (EvgSharamet)		
+13. Evgeniy Shaets (EvgShaets)
