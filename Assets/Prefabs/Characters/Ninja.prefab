@@ -342,7 +342,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1434250490251070}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 533c263b79f8af646a44169ff0a70cf8, type: 3}
+  m_Script: {fileID: 11500000, guid: 50a3517d79ca18440b92d96f920d7102, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _idleAnimationName: Idle
@@ -351,3 +351,6 @@ MonoBehaviour:
   _moveRightAnimationName: TurnRight
   _moveBackAnimationName: TurnAround
   _actionAnimationName: Action
+  _smokePrefab: {fileID: 1000011128802252, guid: cabeee2a5ef9add41b681cdf8a31061b,
+    type: 2}
+  _delay: 0.5

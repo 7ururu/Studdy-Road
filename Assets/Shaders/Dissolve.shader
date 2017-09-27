@@ -17,8 +17,6 @@
 		Tags { 
 			"RenderType" = "Opaque"
 		}
-        Blend SrcAlpha OneMinusSrcAlpha 
-		Cull Off
 
 		CGPROGRAM
 
