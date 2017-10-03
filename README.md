@@ -13,3 +13,7 @@ Participants list:
 9. Pavel Razin (PavelRazin)
 10. Tatarinov Aleksandr(Fahrenheit039)
 11. Savely Pekar (savpekar)
+12. Evgeniya Sharamet (EvgSharamet)		
+13. Evgeniy Shaets (EvgShaets)
+14. Alina Poddubskaya (apoddubskaya)
+15. Polina Riabchun (priabchun)
