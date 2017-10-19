@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: BirdBus
+  m_Controller: {fileID: 9100000, guid: 00ebaa9cf6b4f084cb8880a3f572a223, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 90facc170e2ed8944b24439665ab8b21, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 90facc170e2ed8944b24439665ab8b21, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 399df72e8e4456549b8aaa7ef4152dbc, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 399df72e8e4456549b8aaa7ef4152dbc, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a634f2b879ac4294485246054b99e3cf, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a634f2b879ac4294485246054b99e3cf, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 339e83de39e38d342900f6dfa2ffa8d6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 339e83de39e38d342900f6dfa2ffa8d6, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 1a010712d69a89a4687779097382dbee, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 83f69523108c5a247bb516e178765ec1, type: 2}
